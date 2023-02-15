@@ -1,4 +1,4 @@
-#include "baseline_ppm_config.h"
+#include "baseline_vec3_config.h"
 #include <iostream>
 
 int main(int argc, char **argv)
