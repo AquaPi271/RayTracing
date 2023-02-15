@@ -1,0 +1,8 @@
+Checks: '-*,
+        clang-analyzer-*,
+        -clang-analyzer-security.insecureAPI.strcpy,
+        performance-*,
+        readability-isolate-declaration,
+        readability-convert-member-functions-to-static,
+        readability-static-accessed-through-instance'
+WarningsAsErrors: '*'

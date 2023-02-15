@@ -1,0 +1,16 @@
+Tools and Housekeeping
+======================
+Run clang-tidy against all the code.
+DONE -- Automatically clang-format during saves.  (uses Clang-Format extension)
+DONE -- Run clang-format from within VS Code, if possible.  Done either by saving or formatting document through Clang-Format extension.
+Run clang-tidy from within VS Code, if possible.
+
+Libraries and Tools
+===================
+Argparse to parse the command line.
+Other file formats for graphics.
+GUI for display and running renders.  Perhaps research possible existing frameworks.
+
+Testing Framework
+=================
+Googlemock / Googletest to enable suite of testing.
