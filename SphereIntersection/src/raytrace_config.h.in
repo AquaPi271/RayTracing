@@ -1,0 +1,3 @@
+// the configured options and settings for baseline_png
+#define baseline_png_VERSION_MAJOR @baseline_png_VERSION_MAJOR@
+#define baseline_png_VERSION_MINOR @baseline_png_VERSION_MINOR@
