@@ -1,9 +1,10 @@
 Tools and Housekeeping
 ======================
-Run clang-tidy against all the code.
+DONE -- Run clang-tidy against all the code.  Bash script does this now.
 DONE -- Automatically clang-format during saves.  (uses Clang-Format extension)
 DONE -- Run clang-format from within VS Code, if possible.  Done either by saving or formatting document through Clang-Format extension.
 Run clang-tidy from within VS Code, if possible.
+
 
 Libraries and Tools
 ===================
@@ -17,5 +18,13 @@ Googlemock / Googletest to enable suite of testing.
 
 Learning
 ========
-
 Learn about gamma correction.
+
+Azure
+=====
+Try to get a dispatch to render ray-traced scenes remotely.
+
+Ray Tracing
+===========
+
+Return to make sure accurate Lambertian scattering was done.  Section 8 had an option to choose between half and full sphere scattering.  This was removed in section 9 (commented out).
