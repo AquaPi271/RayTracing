@@ -1,0 +1,7 @@
+-- When deciding how to architect code, first go with what works if no other considerations are available.
+
+-- If the question arises where two or more choices are available specifically weigh the reasons for choosing one over the other.  As an example here is how diffuse materials were implemented in Ray Tracing In A Weekend:
+
+"Now that we have objects and multiple rays per pixel, we can make some realistic looking materials. We’ll start with diffuse (matte) materials. One question is whether we mix and match geometry and materials (so we can assign a material to multiple spheres, or vice versa) or if geometry and material are tightly bound (that could be useful for procedural objects where the geometry and material are linked). We’ll go with separate — which is usual in most renderers — but do be aware of the limitation."
+
+The choice taken here is the most common choice in most ray tracers.  Keeping the material separate allows for reuse, which could improve memory and overall performance.  However, certain materials might not be suitable to all geometries.  This could lead to specializations of materials which could be confusing to use.  Tightly bound materials could make the code and memory footprint bigger, but possibly easier to use.  Procedural generated materials may need information about the geometry to work.  In this case no interface would be needed -- the material can directly interact with the geometry.  But maintaining separate materials for each shape could be cumbersome when there many of the same or similar shapes.
