@@ -1,6 +1,6 @@
 {
     "cmake.configureOnOpen": false,
-    "cmake.sourceDirectory": "${workspaceFolder}/RaysCameraBackground",
+    "cmake.sourceDirectory": "${workspaceFolder}/13_FinalRender",
     "files.associations": {
         "iostream": "cpp"
     }
